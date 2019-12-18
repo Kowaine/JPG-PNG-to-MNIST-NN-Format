@@ -6,9 +6,7 @@ Super simple method for converting a set of jpg and/or png images (or a mix) int
 
 Use the following lines to install imagemagick and the python-imaging-library (PIL):
 
-```bash
-sudo apt-get update
-sudo apt-get install imagemagick php5-imagick
+```Pillow
 pip install pillow
 ```
 

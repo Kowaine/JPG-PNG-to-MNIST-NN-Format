@@ -9,7 +9,7 @@ Pillow
 ```Pillow
 pip install pillow
 ```
-7z(Path variable is necessary)  
+[7z](https://www.7-zip.org/) (Path variable is necessary)  
 
 # Transform your images into an MNIST NN Ready Binary:
 

@@ -38,8 +38,7 @@ example of where files will appear/where-to put png's (ignore placeholder.txt, t
 ├── batches.meta.txt
 ├── convert-images-to-mnist-format.py
 ├── LICENSE
-├── README.md
-├── resize-script.sh
+├── README.md  
 ├── t10k-images(according to setting in 'convert-images-to-mnist-format.py')  
 │   ├── 0
 │   │   ├── home-cat.png

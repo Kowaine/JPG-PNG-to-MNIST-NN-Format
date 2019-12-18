@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "任务-resize-script",
+      "appliesTo": "resize-script.sh",
+      "type": "launch"
+    }
+  ]
+}

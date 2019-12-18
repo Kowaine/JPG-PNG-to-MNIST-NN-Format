@@ -15,15 +15,11 @@ pip install pillow
 # Transform your images into an MNIST NN Ready Binary:
 
 
-1\. Copy-pasta your jpg and/or png images into one of the class folders, as seen in  (e.g. dogs -> 0, cats -> 1, ... giraffes->9)
+1\. Copy-pasta your jpg and/or png images(28x28) into one of the class folders, as seen in  (e.g. dogs -> 0, cats -> 1, ... giraffes->9)
 
 2\. Change the appropriate labels in `batches.meta.txt`
 
-3\. then use the following bash script which processes the images, rescaling all of the png's you placed in the folders the MNIST standard 28x28pixel size
-
-`./resize-script.sh`
-
-4\. lastly, run the following python script to fold all the pics and categories into a single ble binary -- binary will appear as `ubyte` files ready to tar
+3\. lastly, run the following python script to fold all the pics and categories into a single ble binary -- binary will appear as `ubyte` files ready to tar
 
 `python convert-images-to-mnist-format.py`
 

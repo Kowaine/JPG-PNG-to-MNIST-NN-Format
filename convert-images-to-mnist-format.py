@@ -14,7 +14,7 @@ for name in Names:
     data_label = array('B')
 
     FileList = []
-    for dirname in os.listdir(name[0]): # [1:] Excludes .DS_Store from Mac OS
+    for dirname in os.listdir(name[0]):
         path = os.path.join(name[0],dirname)
         for filename in os.listdir(path):
             if filename.endswith(".png"):
@@ -74,5 +74,6 @@ for name in Names:
 # gzip resulting files
 
 for name in Names:
+    # 根据自己安装的压缩软件修改
     os.system('7z a -tgzip '+name[1]+'-images-idx3-ubyte.gz '+name[1]+'-images-idx3-ubyte')
     os.system('7z a -tgzip '+name[1]+'-labels-idx1-ubyte.gz '+name[1]+'-labels-idx1-ubyte')

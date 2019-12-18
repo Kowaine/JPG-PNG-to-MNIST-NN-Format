@@ -1,10 +1,12 @@
 # JPG-and-PNG-to-MNIST
 
-Super simple method for converting a set of jpg and/or png images (or a mix) into mnist binary format for training (depends on imagemagick and python 2.7 PIL)
+Super simple method for converting a set of jpg and/or png images (or a mix) into mnist binary format for training  
+On Windows!
 
 # Dependencies:
 
-Use the following lines to install imagemagick and the python-imaging-library (PIL):
+Pillow
+7z(Path variable is necessary)
 
 ```Pillow
 pip install pillow
@@ -39,7 +41,7 @@ example of where files will appear/where-to put png's (ignore placeholder.txt, t
 ├── LICENSE
 ├── README.md
 ├── resize-script.sh
-├── test-images
+├── t10k-images(according to setting in 'convert-images-to-mnist-format.py')  
 │   ├── 0
 │   │   ├── home-cat.png
 │   │   └── placeholder.txt
@@ -62,7 +64,7 @@ example of where files will appear/where-to put png's (ignore placeholder.txt, t
 │   │   └── placeholder.txt
 │   └── 9
 │       └── placeholder.txt
-└── training-images
+└── training-images(according to setting in 'convert-images-to-mnist-format.py')  
     ├── 0
     │   ├── home-cat.png
     │   └── placeholder.txt
